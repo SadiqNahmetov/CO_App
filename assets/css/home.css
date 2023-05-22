@@ -1,0 +1,47 @@
+.header{
+    width: 86.7rem;
+    margin: auto;
+    margin-top: 11rem;
+    text-align: center;
+    color: var(--color-black);
+}
+.header__title--item{
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+.header__text--item{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+.products{
+    display: flex;
+    gap: 6rem;
+    margin-top: 5rem;
+}
+
+.products__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 1.9rem;
+    padding:2rem;
+    width: 40.50rem;
+    height: 27.8rem;
+    border-radius: 1.5rem;
+    background-color: var(--text-color-white);
+    transition:transform .5s linear;
+}
+
+.products__card:hover{
+    transform: scale(1.1);
+
+}
+.products__card--download{
+    padding: 1.7rem 2.5rem;
+}
+.products__card:hover .products__card--download{
+    background-color: var(--color-blue);
+}
